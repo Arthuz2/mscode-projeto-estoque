@@ -26,10 +26,7 @@
         <input type="text" class="form-control" id="nome" name="nome" value="<?= isset($data['categoria']['nome']) ? $data['categoria']['nome'] : '' ?>">
       </div>
       <button type="submit" class="btn btn-primary">
-        <?= isset($data['categoria'])
-          ? "Atualizar"
-          : "Salvar";
-        ?>
+        <?= isset($data['categoria']) ? "Atualizar" : "Salvar" ?>
       </button>
     </form>
   </div>
